@@ -99,6 +99,6 @@ for(i = 0; i<12; ++i)
 }
 
 casper.then(function(){
-    console.log(JSON.stringify(jsonArr, null, 2));
+    console.log(JSON.stringify(jsonArr));
 });
 casper.run();
